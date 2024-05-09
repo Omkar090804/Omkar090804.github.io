@@ -1,0 +1,24 @@
+h2 {
+    font-size: 2.5em; 
+    margin-top: 20px;
+    color:blue;
+}
+
+ul li {
+    font-size: 1.2em; 
+    margin-top: 10px;
+}
+
+body {
+    background-color: black; 
+    color: white; 
+}
+
+ul {
+    padding-left: 20px;
+}
+
+h1{
+    font-size:2rem;
+    color: aquamarine;
+}

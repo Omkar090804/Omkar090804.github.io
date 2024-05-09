@@ -1,0 +1,15 @@
+
+body {
+    background-color: black;
+    color: white; 
+}
+
+h2 {
+    font-size: 2em; 
+    color: blue;
+}
+
+li {
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+}

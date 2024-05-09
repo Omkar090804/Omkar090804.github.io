@@ -1,0 +1,16 @@
+
+body {
+    background-color:black;
+    color: white; 
+}
+
+
+h2 {
+    font-size: 2em; 
+    color: rgba(0, 0, 255, 0.678);
+}
+
+li {
+    font-size: 1.2em; 
+    margin-bottom: 10px; 
+}
