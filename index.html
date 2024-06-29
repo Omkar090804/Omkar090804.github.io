@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Omkar's Resume</title>
     <link rel="stylesheet" href="style.css">
+    
     <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
     <style>
     </style>
@@ -81,6 +82,7 @@
                 <h1><strong>Web Developer</strong><br></h1>
                 - Youtube Clone<br>
                 - Flying Bird Game<br>
+                - Tic Tac Toe Game <br>
                 - HackSharks 2.0
             </li>
             <li>
@@ -112,16 +114,36 @@
             <li>LeetCode 100 days certificate</li>
             <li>Database management systems certificate by Udemy</li>
             <li>Operating Systems from scratch certificate by udemy</li>
-            <li>Abdroid Application Development Certificate by Great Learning</li>
+            <li>Android Application Development Certificate by Great Learning</li>
             <li>Social Entrepreneurship Internship at Hamari Pahchan NGO</li>
             <li>Community Influencing Internship at InAmigos Foundation</li>
         </ul>
     </section>
-
+    
     <section class="contact" id="contact">
-        <!-- Content for contact section -->
+        <h2>Contact</h2>
+        <br><br>
+        <form id="contact-form" action="./thankyoucontact.html" method="post">
+            <br>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="fname" value="" required><br><br>
+            
+            <label for="lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" value="" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" value="" required><br><br>
+            
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+            
+            <input type="submit" value="Submit">
+        </form>
+        <div id="thank-you-message">Thank you for messaging, I will reply soon.</div>
     </section>
 
-    <script src="script.js"></script>
+
+    <script src="script.js">
+    </script>
 </body>
 </html>
