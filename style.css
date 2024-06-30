@@ -288,3 +288,26 @@ h4{
 
 
 
+
+
+
+
+
+
+
+section.contact::before {
+  content: '';
+  display: block;
+  height: 60px; 
+  margin-top: -60px; 
+  visibility: hidden;
+}
+
+
+#thank-you-message {
+  display: none;
+  color: green;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
+
