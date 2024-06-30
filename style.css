@@ -380,7 +380,7 @@ section.contact::before {
 
 #thank-you-message {
   display: none;
+  text-align: center;
+  font-size: 18px;
   color: green;
-  font-size: 1.2em;
-  margin-top: 20px;
 }
