@@ -13,10 +13,10 @@
     overflow-x: hidden;
   }
   :root {
-    --bg-color: rgb(95, 145, 160);
-    --second-bg-color: #001005;
-    --text-color: white;
-    --main-color:rgba(0, 255, 221, 0.966);
+    --bg-color:rgba(47, 204, 196, 0.966);
+    --second-bg-color: #09100088;
+    --text-color:white;
+    --main-color: rgb(49, 47, 148);
   }
 
   body{
@@ -30,7 +30,7 @@
     width:100%;
     top:0%;
     left:0%;
-    padding: 3rem 8%;
+    padding: 3rem 5%;
     background: black;
     backdrop-filter: blur(10px);
     display:flex;
@@ -227,7 +227,7 @@ button{
 }
 
 .social-icons a:hover {
-  color: #007bff; 
+  color: #011830; 
 }
 .social-icons a {
   margin: 0 10px; 
@@ -268,7 +268,7 @@ h4{
 .achievements h2 {
     font-size: 24px; 
     font-weight: bold;
-    color: rgba(0, 255, 221, 0.966);
+    color: rgba(10, 2, 83, 0.966);
     margin-bottom: 20px; 
 }
 
@@ -292,24 +292,6 @@ h4{
 
 
 
-
-
-
-section.contact::before {
-  content: '';
-  display: block;
-  height: 60px; 
-  margin-top: -60px; 
-  visibility: hidden;
-}
-
-
-#thank-you-message {
-  display: none;
-  color: green;
-  font-size: 1.2em;
-  margin-top: 20px;
-}
 
 
 
@@ -386,3 +368,19 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Add padding to the top of the section to make space for the heading */
+section.contact::before {
+  content: '';
+  display: block;
+  height: 60px; /* Height of the header */
+  margin-top: -60px; /* Negative margin of the same height */
+  visibility: hidden;
+}
+
+
+#thank-you-message {
+  display: none;
+  color: green;
+  font-size: 1.2em;
+  margin-top: 20px;
+}
